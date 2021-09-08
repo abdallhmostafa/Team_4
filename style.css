@@ -1,0 +1,50 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+
+/*==================== VARIABLES CSS ====================*/
+:root {
+    --header-height:3rem ;
+
+    /*========== Colors ==========*/
+    /* Change favorite color */
+    --hex-color: #20083a; 
+    --first-color: #20083a;
+    --first-color-second:#ff2c9c ;
+    --second-main-color:#8c19d8;
+    --title-color: #ffffff;
+    --text-color:#111 ;
+    --body3-color:#d1dbe0;
+    --a-color-about:#0167ff;
+    --a2-color-about:#ff2b90;
+    --hover-color:#9d3bde
+    --body-color: ;
+    --container-color: ;
+
+    }
+    .home section{
+        height: 100vh;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*====ABOUT SECTION === */
+    .about_section{
+        position: relative;
+        margin: 40px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+    }
