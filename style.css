@@ -19,8 +19,40 @@
     --hover-color:#9d3bde
     --body-color: ;
     --container-color: ;
+ /*========== Font and typography ==========*/
+  --body-font: "Circular Std Book";
+  --body2-font:"Poppins";
+  --biggest-font-size: 2.25rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+  --p-size:1.2rem ;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold:700;
+
+  /*========== Margenes ==========*/
+  --mb-1: .5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
 
     }
+
+/*===body===*/ 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
     .home_section{
         height: 100vh;
     }
@@ -39,4 +71,140 @@
 
 
     /*====ABOUT SECTION === */
+
+    .about_section{
+        position: relative;
+        margin-top:70px;
+        margin-bottom:40px;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        display:block;
+        min-height: 100vh;
+        transition: .5s;
+
+
+}
+.abt1{
+    position: relative;
+    width:100%;
+    height: 100%;
+    padding: 50px;
+    justify-content: space-between;
+    display: inline-block;
+    align-items: center;
     
+    
+}
+.abt1 .imgBox {
+    position: relative;
+    float: left;
+    width: 50%;
+
+}
+.abt1 .imgBox img {
+position: absolute;
+top: 0;
+left: 0;
+
+}    
+.abt1 .content{
+    position: relative;
+    float: right;
+    margin-left: 30px;
+    width: 50%;
+    padding: 70px;
+}
+.abt1 svg{
+    border-radius: 50%;
+    padding: 8px;
+}
+.abt1 .textBox {
+    position: relative;
+    float: right;
+    padding-top: 20px;
+}
+.textBox h3 {
+    font-family: var( --body2-font);
+    font-size:var( --mb-5) ;
+    font-weight:var( --font-bold) ;
+    line-height: 1.2em;
+}
+.textBox p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: var(--body-font);
+    font-size: var(--p-size);
+    line-height: 1.7rem;
+    opacity: .8;
+}
+.textBox a {
+    text-decoration: none;
+    font-family: var( --body2-font);
+    font-size:var(--mb-2) ;
+    font-weight: var(--font-medium);
+    color:var(--a-color-about);
+    cursor: pointer;
+
+}
+.textBox a::after {
+    content: '';
+    position: absolute;
+    width: 40%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--a-color-about);;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.textBox a:hover::after,
+.textBox a:focus::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.abt2{
+    position: relative;
+    width:100%;
+    height: 100%;
+    padding: 50px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+
+}
+.abt2 .imgBox {
+    position: relative;
+    float: right;
+    width: 50%;
+    flex: 1;
+    margin-bottom: 100px;
+}
+.abt2 .imgBox img {
+position: absolute;
+top: 0;
+right: 0;
+
+
+}    
+.abt2 .content{
+    margin-top: 120px;
+    position: relative;
+    float: left;
+    width: 50%;
+    flex: 0 0 45%;
+}
+.abt2 svg{
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #ff2c9c;
+}
+.abt2 .textBox {
+    position: relative;
+    float: left;
+    padding-top: 20px;
+}
