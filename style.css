@@ -82,6 +82,7 @@
         display:block;
         min-height: 100vh;
         transition: .5s;
+       transition: ease-in;
 
 
 }
@@ -183,6 +184,7 @@ left: 0;
     width: 50%;
     flex: 1;
     transition: .5s;
+    transition: ease-in;
     display: table-cell
 }
 .abt2 .imgBox img {
@@ -200,6 +202,7 @@ transition: .5s;
     width: 50%;
     flex: 0 0 45%;
     transition: .5s;
+    transition: ease-in;
     display: table-row
 }
 .abt2 svg{
@@ -211,4 +214,8 @@ transition: .5s;
     position: relative;
     float: left;
     padding-top: 20px;
+}
+svg {
+    fill:#fff;
+    transition: ease-in .5s all;
 }
