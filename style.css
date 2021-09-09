@@ -72,7 +72,7 @@
 
     /*====ABOUT SECTION === */
 
-    .about_section{
+   .about_section{
         position: relative;
         margin-top:70px;
         margin-bottom:40px;
@@ -93,7 +93,7 @@
     justify-content: space-between;
     display: inline-block;
     align-items: center;
-    
+    transition: .5s;
     
 }
 .abt1 .imgBox {
@@ -171,7 +171,7 @@ left: 0;
     height: 100%;
     padding: 50px;
     justify-content: space-around;
-    display: flex;
+    display: table;
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
     align-items: center;
@@ -182,12 +182,14 @@ left: 0;
     float: right;
     width: 50%;
     flex: 1;
-    margin-bottom: 100px;
+    transition: .5s;
+    display: table-cell
 }
 .abt2 .imgBox img {
 position: absolute;
 top: 0;
 right: 0;
+transition: .5s;
 
 
 }    
@@ -197,6 +199,8 @@ right: 0;
     float: left;
     width: 50%;
     flex: 0 0 45%;
+    transition: .5s;
+    display: table-row
 }
 .abt2 svg{
     border-radius: 50%;
