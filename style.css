@@ -458,7 +458,188 @@ svg {
     fill:#fff;
     transition: ease-in .5s all;
 }
-/*Start of CTA section*/
+/* ==================================================== The End of Section About ======================================================================   */
+
+
+
+ /* ==================================================== The Start of Section Service  ================================================================ */
+.service{
+  padding: 115px 0px;
+    background-color: #ebf2f6;
+    line-height: 1.15;
+    display: block;
+}
+
+ .service .container .service_title {
+   margin: 0 auto;
+    max-width: 465px;
+    text-align: center;
+    display: block;
+ }
+.service .container .service_title .service_subtitle{
+  color: #53117f;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: -30px;
+}
+.service .container .service_title h2{
+      font-size: 40px;
+    padding-top: 5px;
+    font-weight: 700;
+    color: #010101;
+    line-height: 1.2;
+  }
+.service_content{
+  padding-top: 55px;
+  margin-top: -35px;
+
+}
+.service_content .row_2 {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.service .container .service_content .row_2 .counter{
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+
+.service .container .service_content .row_2 .counter:hover{
+  /* box-shadow: -4px 4px 100px -30px; */
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
+transform:translateY(-15px);
+transition-duration: 0.5s;  
+
+/* background-color: white; */
+
+   /* box-shadow: -10px 10px 19px -1px; */
+
+}
+.service .container .service_content .row_2 .counter .service_box{
+    padding: 20px 20px 25px;
+    position: relative;
+    background-color: #fff;
+    transition: 0.3s all ease-in-out;
+    animation-name:box;
+}
+.service .container .service_content .row_2 .counter .service_box::before{
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  /* width: 270px; */
+  transform: scaleX(0);
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+  background-color: var( --a2-color-about);
+  visibility: visible;
+   
+   transition-duration: 0.5s;
+  
+}
+.service .container .service_content .row_2 .counter .service_box:hover::before{
+  transform: scaleX(1);
+  transition-duration: 0.5s;
+ 
+}
+
+
+.service .container .service_content .row_2 .counter .service_box .service_icon{
+  width: 65px;
+  display: block;
+}
+.service .container .service_content .row_2 .counter .service_box .service_text h3{
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  padding-bottom: 8px;
+  line-height: 1.2;
+  margin: 0;
+
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+.service .container .service_content .row_2 .counter .service_box .service_text p{
+  
+  color: #666666;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 1.625;
+
+}
+.service .container .service_content .row_2 .counter .service_box .service_text .text-center{
+    width: 100px;
+    height: 38px;
+    display: block;
+    font-size: 15px;
+    line-height: 34px;
+    font-weight: 700;
+    font-family: "Poppins";
+    border: 2px solid var( --a2-color-about);
+    transition: 0.3s all ease-in-out;
+    text-align: center;
+    cursor: pointer;
+  
+
+}
+ .service .container .service_content .row_2 .counter .service_box .service_text .text-center:hover{
+   width: 100px;
+    height: 38px;
+    display: block;
+    font-size: 15px;
+    line-height: 34px;
+    font-weight: 700;
+    font-family: "Poppins";
+    border: 2px solid #6f42c1;
+    transition: 0.3s all ease-in-out;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background-color: #6f42c1;
+  
+  
+}
+
+@keyframes box {
+0% {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+100% {
+    opacity: 1;
+    transform: translateY(100px);
+}}
+
+::before{
+  /* transition-duration: 1500ms; */
+  transition-timing-function: ease-in-out;
+}
+@media (max-width: 768px){
+.service .container .service_content .row_2 .counter{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;}
+  }
+
+ /* ========================================================== The End of Section Service ============================================================= */
+
+
+
+
+/*============================================================== Start of CTA section ================================================================*/
 .cta{
     position: relative;
     justify-content: space-between;
