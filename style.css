@@ -556,7 +556,60 @@ svg {
     line-height: 2.1;
     letter-spacing: 1.1px;
 }
+/* ====subscribe section===*/
+.sub{
+    background-color: #000000;
+    z-index: 1000;
+    position: absolute;
+    top:-150;
+    width:80%;
+    margin-left: 10%;
+    height: 264px;
+    
+    
 
+}
+.cont{
+margin: 50px;
+justify-content: center;
+text-align: center;
+align-items: center;
+
+}
+.cont h1{
+text-align: center;
+color: var(--title-color);
+font-size: var(--mb-5);
+font-weight: var(--font-bold);
+font-family:Georgia, 'Times New Roman', Times, serif;
+margin-bottom: 15px;
+}
+.cont p {
+color: var(--title-color);
+font-size: var(--p-size);
+margin-bottom: 20px;
+font-family: sans-serif;
+}
+.fm input{
+    width: 500px;
+    height: 55px;
+    opacity: .9;
+    padding: 20px;
+    background-color: #242424;
+    color: #fff;
+    border: 0;
+    font-size: 15px;
+    outline: none;
+}
+.fm button{
+    width: 150px;
+    height: 54px;
+    color: var(--title-color);
+    background-color: var(--btn-color);
+    border: 0;
+    outline: none;
+    font-size: 15px;
+}
 /*==== FOOTER SECTION===*/
 .footer{
     position: relative;
