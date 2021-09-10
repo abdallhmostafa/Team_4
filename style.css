@@ -458,6 +458,69 @@ svg {
     fill:#fff;
     transition: ease-in .5s all;
 }
+/*Start of CTA section*/
+.cta{
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    height: 395px;
+    transition: .5s;
+
+}
+.cta .shape1{
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: 0;
+    width: 80px;
+
+}
+.cta .shape2{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    z-index: 0;
+}
+.cta .text{
+    position: relative;
+    display: inline-block;
+    margin-top: 130px;
+    margin-left: 80px;
+    padding: 50px;
+    
+}
+
+.cta .text h3{
+    color: #353535;
+    font-size: var(--mb-5);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.cta .text .a1{
+    color: var(--text-color1);
+    font-size: var(--mb-2);
+    cursor: pointer;
+}
+.cta .text .a2{
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    font-size: 185x;
+    font-weight: 800;
+    bottom: 50%;
+    left: 120%;
+    color: var(--title-color);
+    background-color: var(--btn-color);
+    width: 180px;
+    height: 60px;
+    transition: .5s;
+}
+.cta .text .a2:hover{
+    background-color: #9d3ade;
+    transition: .5s;
+}
 
 /*============ PRICING =============*/
 
