@@ -219,3 +219,254 @@ svg {
     fill:#fff;
     transition: ease-in .5s all;
 }
+
+
+
+
+/*==== FOOTER SECTION===*/
+.footer{
+    position: relative;
+    justify-content: space-between;
+    display:inline-block;
+    padding:100px 0 30px;
+    line-height:24px;
+    color:var(--title-color);
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--body-color);
+    
+
+}
+.row{
+    display: flex;
+    width: 85%;
+    margin-left: 30px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+    
+}
+
+.im1{
+    width: 160px;
+    margin-bottom: 30px;
+}
+.col h2{
+    font-size: var(--mb-4);
+    width: fit-content;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.col span{
+    color: #f104f5;
+    font-size: var(--mb-3);
+    font-weight: var(--font-medium);
+    margin-bottom:20px;
+    
+}
+.text-justify{
+color: var(--title-color);
+font-size: var(--mb-2);
+font-family:  var(--body2-font);
+line-height: 1.7em;
+margin-bottom: 15px;
+}
+
+.col h2::after{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 62%;
+    border-top: 1px solid #fff;
+    width:330px;
+    opacity: .5;
+    margin-left: 10px;
+
+}
+.col ul li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+.col ul li a {
+    text-decoration: none;
+    color: var(--title-color);
+    position: relative;
+
+}
+.col ul li a i{
+    width: 12px;
+    margin-right: 8px;
+    
+    
+}
+
+.col ul li a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #f104f5;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  	transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  	transition: all 0.3s ease-in-out 0s;
+}
+
+.col ul li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1.1);
+}
+.col ul li a:hover {
+color: #f104f5;
+;
+}
+
+.c1{
+    margin-top: 65px;
+}
+
+.col form {
+    padding-bottom: 15px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.col form input {
+    width: 200px;
+    height: 40px;
+    opacity: .9;
+    padding: 20px;
+    background-color: #503d63;
+    color: #fff;
+    border: 0;
+    
+    font-size: 15px;
+    outline: none;
+}
+.col form button{
+    width: 62px;
+    height: 39px;
+    background-color: #ff2c9c;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+}
+.col form button:hover{
+    background-color: #9d3ade;
+}
+.right h1{
+
+font-size: var(--mb-4);
+    width: fit-content;
+    position: relative;
+    margin-bottom: 40px;
+
+}
+.right::after{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 34%;
+    right: 0;
+    border-top: 1px solid #fff;
+    width:250px;
+    opacity: .5;
+    margin-left: 5px;
+
+}
+.right p {
+    color: var(--title-color);
+font-size: var(--p-size);
+font-family:  var(--body2-font);
+line-height: 1.7em;
+margin-bottom: 15px;
+}
+
+
+.social-icons .fb-bg{
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 10px;
+    margin-right: 10px;
+    color: #16599b;
+}
+.social-icons .bh-bg  {
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 10px;
+    margin-right: 10px;
+    color:#73b7ff;
+}
+.social-icons .tw-bg  {
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 10px;
+    margin-right: 10px;
+    color:#03a9f4;
+}
+.social-icons .dr-bg  {
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 10px;
+    margin-right: 10px;
+    color:#eb5a89;
+}
+.social-icons .fb-bg:hover,.tw-bg:hover,.dr-bg:hover
+,.bh-bg:hover{
+    transform: scale(1.2);
+}
+
+/*====COPYRIGHT SECTION ====*/
+.copyRight-sec{
+    background-color: #000000;
+    width: 100%;
+    height: 55px;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    font-size:20px;
+    font-weight: 600;
+}
+.copyRight-sec a{
+    text-decoration: none;
+color: #c365f6;
+}
