@@ -16,9 +16,17 @@
     --body3-color:#d1dbe0;
     --a-color-about:#0167ff;
     --a2-color-about:#ff2b90;
-    --hover-color:#9d3bde
-    --body-color: ;
+    --hover-color:#9d3bde;
+    --body2-color: #1b0234;
     --container-color: ;
+    -first-color1: #069C54;
+    --first-color-alt: #048654;
+     --title-color1: #393939; 
+    --text-color1: #707070;
+    --text-color-light: #A6A6A6;
+    --body-color: #FBFEFD;
+    --container-color: #FFFFFF;
+   
  /*========== Font and typography ==========*/
   --body-font: "Circular Std Book";
   --body2-font:"Poppins";
