@@ -27,6 +27,7 @@
     --body-color: #FBFEFD;
     --container-color: #FFFFFF;
     --btn-color: #ff2c9c;
+    --add-color:#f104f5;
    
  /*========== Font and typography ==========*/
   --body-font: "Circular Std Book";
@@ -276,7 +277,7 @@ svg {
 }
 
 .col span{
-    color: #f104f5;
+    color: var(--add-color:#f104f5);
     font-size: var(--mb-3);
     font-weight: var(--font-medium);
     margin-bottom:20px;
@@ -325,7 +326,7 @@ margin-bottom: 15px;
   height: 2px;
   bottom: -2px;
   left: 0;
-  background-color: #f104f5;
+  background-color: var(--add-color:#f104f5);
   visibility: hidden;
   -webkit-transform: scaleX(0);
   	transform: scaleX(0);
@@ -339,7 +340,7 @@ margin-bottom: 15px;
   transform: scaleX(1.1);
 }
 .col ul li a:hover {
-color: #f104f5;
+color: var(--add-color:#f104f5);
 ;
 }
 
