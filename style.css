@@ -295,20 +295,6 @@ color:var(--a2-color-about);
     color:white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /*====ABOUT SECTION === */
 
    .about_section{
@@ -431,9 +417,12 @@ position: absolute;
 top: 0;
 right: 0;
 transition: .5s;
-
-
 }    
+
+.about_subtitle {
+    color:var( --title-color1);
+}
+
 .abt2 .content{
     margin-top: 100px;
     position: relative;
@@ -458,11 +447,11 @@ svg {
     fill:#fff;
     transition: ease-in .5s all;
 }
-/* ==================================================== The End of Section About ======================================================================   */
+/* ============================= The End of Section About ============================   */
 
 
 
- /* ==================================================== The Start of Section Service  ================================================================ */
+ /* ================== The Start of Section Service  ===================================== */
 .service{
   padding: 115px 0px;
     background-color: #ebf2f6;
@@ -480,7 +469,7 @@ svg {
   color: #53117f;
     font-size: 18px;
     font-weight: 500;
-    margin-bottom: -30px;
+    margin-bottom: 30px;
 }
 .service .container .service_title h2{
       font-size: 40px;
@@ -1073,12 +1062,12 @@ font-family: sans-serif;
 }
 
 .col span{
-    color: var(--add-color:#f104f5);
+    color: var(--add-color);
     font-size: var(--mb-3);
     font-weight: var(--font-medium);
-    margin-bottom:20px;
-    
+    margin-bottom:20px;   
 }
+
 .text-justify{
 color: var(--title-color);
 font-size: var(--mb-2);
@@ -1122,7 +1111,7 @@ margin-bottom: 15px;
   height: 2px;
   bottom: -2px;
   left: 0;
-  background-color: var(--add-color:#f104f5);
+  background-color: var(--add-color);
   visibility: hidden;
   -webkit-transform: scaleX(0);
   	transform: scaleX(0);
@@ -1136,7 +1125,7 @@ margin-bottom: 15px;
   transform: scaleX(1.1);
 }
 .col ul li a:hover {
-color: var(--add-color:#f104f5);
+color: var(--add-color);
 ;
 }
 
