@@ -20,7 +20,7 @@
     --hover-color:#9d3bde;
     --body2-color: #1b0234;
     --container-color: ;
-    -first-color1: #069C54;
+    --first-color1: #069C54;
     --first-color-alt: #048654;
     --title-color1: #393939; 
     --text-color1: #707070;
@@ -173,6 +173,7 @@ margin-right: 15px;
 
 
 /*==================== HOME ====================*/
+
 .fa-arrow-up {
     color:var(--title-color);
     background-color: var(--a2-color-about);
@@ -193,9 +194,8 @@ margin-right: 15px;
 
 .banner_section {
     height:100vh;
-
-    /* background-image: url(home.png);
-    background-size:contain; 
+    /* background-image: url(../home.png);
+   background-size:contain; 
     background-attachment:scroll;
    background-repeat: no-repeat; */
 }
@@ -206,12 +206,12 @@ margin-right: 15px;
 
 .banner_title {
     color:var(--title-color);
-    font-weight: var(--font-bold);
+     font-weight: var(--font-bold);
     font-size: 55px;
     padding-left: 5%;
     padding-top: 4%;
     line-height: 1.4;
-    font-family: var(--body-font);
+    font-family: var(--body2-font);
 }
 
 .banner_subtitle {
@@ -249,7 +249,6 @@ margin-right: 15px;
     font-weight: bold;
     cursor: pointer;
     text-align: center;
-    
 }
 
 .boxes:hover {
@@ -285,7 +284,7 @@ color:var(--a2-color-about);
     padding: 11px;
     cursor: pointer;
     font-size: 1.1rem;
-    border-style: 1px solid;
+     border-style: 1px solid;
     width:159px;
     height:50px;
     transition: 0.3s all ease-in-out;
@@ -304,12 +303,6 @@ color:var(--a2-color-about);
     color:white;
 }
 
-
-/*==================================== END OF HOME ======================*/
-
-
-
-
     /*==================================================ABOUT SECTION ============================ */
 .about_section{
         position: relative;
@@ -319,9 +312,8 @@ color:var(--a2-color-about);
         display:block;
         min-height: 100vh;
         transition: .6s;
-
-
 }
+
 .abt1{
     position: relative;
     width:100%;
@@ -823,7 +815,6 @@ transition-duration: 0.5s;
     min-height: 1px;
     float: left;
     backface-visibility: hidden;
-
 } */
 .testimonial_section
   .container
@@ -1049,36 +1040,14 @@ transition-duration: 0.5s;
   /* transform: translateX(-1162px); */
      display: none;
          /* transform: translate3d(-1155px, 0px, 0px) */
-
- 
-
 }
 
-
 /* ================================ End of testimonial section ======================================  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* .testimonial_section {
     height: 100vh;
     font-family: var(--body2-font);
-
 }
-
 .testimonial_intro {
     text-align: center;
     margin-top: 60px;
@@ -1086,28 +1055,24 @@ transition-duration: 0.5s;
     background-color: var(--first-color);
     padding:20px 160px 240px 160px;
     width: 830px;
-
 }
-
 .testimonial_title {
     font-size: 14px;
     font-weight: 500;
     color: var(--a2-color-about);
     font-family: var(--body2-font);
 }
-
 .testimonial_subtitle {
     color: white;
     font-weight: 600;
     font-family: var(--body2-font);
     font-size: 40px;
 }
-
 .testimonial_content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* transform: translate3d(-1200px, 0px, 0px); */
+    
     transition: all 0s ease 0s; 
     margin-left: 120px;
     margin-right: 130px;
@@ -1193,12 +1158,12 @@ line-height: 1.1;
 } */
 
 
-.item {
+/* .item {
     width: 370px; 
     margin-right: 30px;
 }
 
-.cntrols {
+.controls {
     margin-left: 30%;
     
 }
@@ -1231,8 +1196,8 @@ line-height: 1.1;
 }
 
 .next:hover {
-    background-color:var(--second-main-color); */
-}
+    background-color:var(--second-main-color);
+} */
 /*====================================START OF PRICING ======================*/
 
 .pricing_section {
@@ -1386,9 +1351,13 @@ font-family: sans-serif;
     border: 0;
     outline: none;
     font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
 }
-.fm button:hover{
-    background-color: #9d3ade;
+
+.fm button:hover {
+    background-color: var(--hover-color);
+    color: blanchedalmond;
 }
 /* ============================END OF subscribe section========================*/
 
@@ -1652,6 +1621,4 @@ margin-bottom: 15px;
 }
 /*==================== END OF COPYRIGHT SECTION ==============================*/
 /*=====media queries ====*/
-/*footer*/
-
 
