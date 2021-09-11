@@ -1020,7 +1020,14 @@ font-family: sans-serif;
     border: 0;
     outline: none;
     font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
 }
+.fm button:hover {
+    background-color: var(--hover-color);
+    color: blanchedalmond;
+}
+
 /*==== FOOTER SECTION===*/
 .footer{
     position: relative;
