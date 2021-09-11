@@ -1,4 +1,5 @@
-        setInterval(function(){
+'use strict'
+setInterval(function(){
             
             if(document.getElementsByClassName("dot")[0].classList.contains("active"))
             {
